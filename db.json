@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "orders": [],
+  "signup": [
+    {
+      "UserId": 0,
+      "Name": "fghj",
+      "PhoneNumber": "7777777777",
+      "Email": "a@g.c",
+      "PassWord": "11111111",
+      "id": 1
+    },
+    {
+      "UserId": 0,
+      "Name": "abhi",
+      "PhoneNumber": "2222222222",
+      "Email": "a@g.c",
+      "PassWord": "11111111",
+      "id": 2
+    },
+    {
+      "UserId": 0,
+      "Name": "ggh",
+      "PhoneNumber": "2222222222",
+      "Email": "s@d.n",
+      "PassWord": "44444444",
+      "id": 3
+    },
+    {
+      "UserId": 0,
+      "Name": "abhilash",
+      "PhoneNumber": "9999999555",
+      "Email": "abhi@gmail.c",
+      "PassWord": "11111111",
+      "id": 4
+    },
+    {
+      "UserId": 0,
+      "Name": "hjmkl",
+      "PhoneNumber": "7879099789",
+      "Email": "abhi@gmail.com",
+      "PassWord": "Bbhi@123",
+      "id": 5
+    },
+    {
+      "UserId": 0,
+      "Name": "Barath",
+      "PhoneNumber": "9878978767",
+      "Email": "barath123@gmail.com",
+      "PassWord": "abhi@123",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

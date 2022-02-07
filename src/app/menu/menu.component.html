@@ -1,0 +1,22 @@
+<div class="co">
+  <br>
+<nav class="navbars">
+  <div class="mx-5">
+    <form class="d-flex">
+      <i class="fas fa-search my-2 mx-2"></i><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"[(ngModel)]="searchText"name="searchText" autocomplete="off">
+      <button class="btn btn-outline-info" type="submit"routerLink="">BACK</button>
+    </form>
+  </div>
+</nav>
+<br>
+</div>
+<div class="gree mx-2">
+  <div class="card"*ngFor="let data of propertes | filter:searchText">
+    <img src="./assets/{{data.img}}" class="card-img-top container" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">{{data.title}}</h6>
+      <p class="card-text">{{data.dsc}}</p><button class="green btn btn-outline-info"routerLink="/order">Ordernow</button>
+     <p class="mi">RS 129/-</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+.form-group label{
+  color: black;
+  font-size: 20px;
+}
+.form-group input {
+  font-size: 500;
+  cursor: pointer;
+}
+.form-group input::placeholder {
+  color: rgb(33, 230, 66);
+  font-size: 1rem;
+}
+
+input.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+.card{
+  width: 80vw;
+  background: honeydew;
+}
+
+input.ng-valid {
+  border: 2px solid rgb(156, 252, 13);
+}

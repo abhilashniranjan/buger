@@ -1,0 +1,79 @@
+.text{
+  font-size:2rem ;
+  text-decoration: none;
+  color: rgb(202, 0, 252);
+}
+h3{
+  color: rgb(74, 9, 252);
+}
+@media screen and (max-width:770px) and (min-width:280px){
+  .text{
+    font-size:0.7rem ;
+    text-decoration: none;
+    color: rgb(202, 0, 252);
+  }
+}
+.tops{
+  width: 19vw;
+}
+
+.cat{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cat a:focus{
+  border-bottom: 2px solid rgb(7, 11, 252);
+  border-radius: 5px;
+}
+span{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.green{
+  float: right;
+}
+ .card{
+   width: 45.3vw;
+   height: 50vh;
+  box-shadow: 5px 5px rgb(212, 203, 203);
+ }
+ .gree{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .card-img-top{
+  width: 15vw;
+  height: 15vw;
+}
+
+@media screen and (max-width:770px) and (min-width:280px){
+  .card-img-top{
+    width: 40vw;
+    height: 25vw;
+  }
+.gig{
+  font-size: 12px;
+  color: black;
+}
+h5{
+  font-size: 16px;
+  color: black;
+}
+.ma{
+  font-size: 0.7rem;
+}
+.btn{
+  font-size: 0.7rem;
+}
+
+}
+@media screen and (max-width:480px) and (min-width:360px){
+  .card{
+    width: 45.3vw;
+    height: 48vh;
+   box-shadow: 5px 5px rgb(212, 203, 203);
+  }
+}

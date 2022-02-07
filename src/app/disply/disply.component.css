@@ -1,0 +1,17 @@
+nav{
+  background: rgb(224, 224, 224);
+}
+th{
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 0.8rem;
+}
+td{
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 0.7rem;
+}
+span{
+  font-size: 1.3rem;
+  color:green;
+}

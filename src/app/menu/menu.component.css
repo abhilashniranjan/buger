@@ -1,0 +1,83 @@
+.gree{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.co{
+  background: rgb(229, 233, 224);
+}
+nav{
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+.green{
+  float: right;
+}
+img{
+  width: 30vw;
+  height: 30vw;
+}
+.card{
+  width: 35vw;
+  height:45vw;
+margin: 1rem;
+box-shadow: 0.4rem 0.3rem rgb(212, 205, 205);
+}
+@media screen and (max-width:480px) and (min-width:280px){
+  .card{
+    width: 50vw;
+    height:77vw;
+    margin: 1rem;
+  }
+  .mi{
+    font-size:0.7rem;
+    color: black;
+  }
+
+  img{
+    width: 40vw;
+    height: 30vw;
+  }
+  nav{
+    margin: auto;
+  }
+}
+.card:hover{
+  transform:scale(0.8,0.8);
+  transition-duration: 400ms;
+  transition-timing-function: ease-out;
+}
+.fas{
+  color: greenyellow;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .card{
+    width: 50vw;
+    height:60vw;
+    margin: 1rem;
+  }
+  nav{
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .mi{
+    font-size:0.9rem;
+    color: black;
+  }
+  } 
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .card{
+      width: 50vw;
+      height:50vw;
+      margin: 1rem;
+    }
+  }
+  .card-title{
+    color: blue;
+  
+  }
+  .card-text{
+    font-size: 0.8rem;
+    color: black;
+  }

@@ -1,0 +1,32 @@
+<nav>
+<form class="container justify-content-start">
+ <button class="btn btn-outline-success me-2 my-2" type="button" routerLink="/one">BACK</button>
+<span class="container">Filling Your Order Details</span>
+</form>
+</nav>
+<section>
+<div class="container py-3">
+<form novalidate autocomplete="off" #form ="ngForm" (submit)="onSubmit(form)"autocomplete="off" novalidate>
+<input type="hidden" name="UserId" [value]="service.formData.UserId"/>
+<div class="form-group">
+<label>Enter FullName</label>
+<input class="form-control form-control-lg" placeholder="FullName"name="FullName" #FullName="ngModel"[(ngModel)]="service.formData.Name" required pattern="^[A-Za-z .]+$" maxlength="14"> 
+</div>
+<div class="form-group">
+ <label>Enter PhoneNumber</label>
+ <input class="form-control form-control-lg" placeholder="PhoneNumber"name="PhoneNumber" #PhoneNumber="ngModel" [(ngModel)]="service.formData.PhoneNumber" required maxlength="10" minlength="10" pattern="^[0-9]+$">
+ </div>
+ <div class="form-group">
+   <label>Burger Name</label>
+   <input class="form-control form-control-lg" placeholder="BurgerName"name="BurgerName" #FullName="ngModel" [(ngModel)]="service.formData.BurgerName"required pattern="^[a-zA-Z]+$"maxlength="14">
+   </div>
+   <div class="form-group">
+     <label>Address</label>
+     <textarea name="Address" rows="3" placeholder="Address" class="form-control form-control-lg"  [(ngModel)]="service.formData.Address" required pattern="^[a-zA-Z .  0-9]+$"maxlength="21"></textarea>
+     </div>
+     <div class="d-grid gap-2">
+<button class="btn btn-primary my-3" type="submit"value="submit"[disabled]="!form.valid">Order Now</button>
+</div>
+</form>
+</div>
+</section>

@@ -1,0 +1,140 @@
+.top{
+  width: 100vw;
+  height: 50vw;
+}
+.menu{
+  height: 14vw;
+  width: 14vw;
+  border-radius: 1.5rem;
+  padding: 0.3rem;
+}
+.green{
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 4.3rem;
+} 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .green{
+    font-size: 1.2rem;
+    text-decoration:none;
+    padding: 2.7rem;
+  } 
+}
+
+@media screen and (max-width:480px) and (min-width:360px){
+  .green{
+    font-size: 0.7rem;
+    text-decoration:none;
+    padding: 0.8rem;
+  } 
+}
+@media (min-width: 481px) and (max-width:600px) {
+  .green{
+    font-size: 0.8rem;
+    text-decoration:none;
+    padding: 1.7rem;
+  } 
+}
+@media (min-width: 601px) and (max-width:767px) {
+  .green{
+    font-size: 0.9rem;
+    text-decoration:none;
+    padding: 2.5rem;
+  }
+}
+.king{
+  width: 50vw;
+  height: 30vw;
+  padding: 1rem;
+  box-shadow: 4px 4px rgb(248, 250, 247);
+}
+
+.box{
+  width: 15vw;
+  height: 19vw;
+}
+.card{
+  box-shadow: 5px 5px rgb(211, 206, 206);
+}
+@media screen and (max-width:480px) and (min-width:280px){
+  .box{
+    width: 15vw;
+    height: 30vw;
+  }
+  h5{
+    font-size:1rem ;
+    
+  }
+  p{
+    font-size: 0.8rem;
+  }
+}
+h3{
+  text-shadow: 3px 3px rgb(228, 223, 220);
+}
+ h3:hover{
+  color: blue;
+}
+
+nav{
+  height: 8vh;
+  background: rgb(255, 242, 255);
+}
+
+.menu:hover{
+  transform: scale(0.8,0.8);
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  box-shadow: 15px 15px rgb(236, 232, 232);
+}
+a:hover{
+  transform: scale(1.1,1.1);
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  color: rgb(255, 0, 43);
+}
+.card:hover{
+  transform: scale(0.9,0.9);
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.gig{
+  width: 30vw;
+  height: 4vh;
+}
+
+i{
+  color:rgb(10, 248, 58);
+  animation:name 1s 0.5s infinite reverse;
+  cursor: pointer;
+  font-size: 1rem;
+}
+@keyframes name{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+nav ul li i:hover{
+  color: rgb(247, 3, 3);
+ 
+}
+.text-muted{
+  font-size: 1rem;
+}
+.mig:hover{
+  height: 17vw;
+}
+.try{
+  color: rgb(0, 26, 255);
+  text-shadow: 3px 3px rgb(235, 229, 229);
+  animation: name1 13s 0.5s ease-out infinite forwards;
+}
+@keyframes name1{
+  0%{
+    transform: translateX(0vw);
+  }
+  100%{
+    transform: translateX(100vw);
+  }
+}

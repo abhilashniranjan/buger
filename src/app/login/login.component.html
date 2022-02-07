@@ -1,0 +1,19 @@
+<div class="card container my-4">
+  <h1 class="card-tatile"class="my-2 mx-3">Login</h1>
+  <div class="card-body">
+<form novalidate autocomplete="off"[formGroup]="formValue" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label>Enter EmailId</label>
+    <input type="email" class="form-control form-control-lg" placeholder="EmailId"name="EmailId"formControlName="Email"required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+$">
+    </div>
+    <div class="form-group">
+      <label>Enter PossWord</label>
+      <input type="password" class="form-control form-control-lg" placeholder="PassWord"name="PassWord"formControlName="PassWord"required maxlength="8">
+      </div>
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary my-3" type="submit"[disabled]="!formValue.valid">login</button>
+        <a routerLink="/signup"class="cont mx-4">Forgut PassWord</a>
+      </div>
+    </form>
+  </div>
+  </div>

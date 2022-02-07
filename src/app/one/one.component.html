@@ -1,0 +1,59 @@
+<nav class="my-2">
+  <button type="button" class="btn btn-outline-info mx-2" routerLink="/">BACK</button>
+  <span class="mx-5 gi">OUR MENU</span>
+</nav>
+<div class="cat">
+  <a  routerLink="two">
+  <img src="./assets/t1.jpg" alt="" class="tops">
+ </a><a routerLink="three">
+  <img src="./assets/min4.jpg" alt="" class="tops">
+  </a><a routerLink="two">
+  <img src="./assets/min6.jpg" alt="" class="tops">
+  </a> <a routerLink="three">
+  <img src="./assets/min5.jpg" alt="" class="tops">
+ </a>
+</div>
+<div class="cat">
+  <a class="text mx-2" routerLink="/one/four">Cobination</a>
+  <a class="text mx-2"routerLink="/one/three">Burgers Mania</a>
+  <a class="text mx-2"routerLink="/one/two">Cricket Mania</a>
+  <a class="text mx-2"routerLink="/one">Picks Mania..</a>
+</div>
+<router-outlet></router-outlet>
+<h3 class="text-center my-2">New Added Menu Listes</h3>
+<div class="gree my-4">
+  <div class="card mx-2">
+    <img src="./assets/mix.jpg" class="card-img-top container" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Chicken Burger Mcdonalds</h5>
+      <p class="card-text gig">Dill pickle, cheddar cheese tomato red onion, ground  </p><button class="green my-2 btn btn-outline-info"(click)="clicked()">Ordernow</button>
+     <p class="my-4 ma">RS 99/-</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./assets/g2.jpg" class="card-img-top container" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Chicken Burger Patty Mixi</h5>
+      <p class="card-text gig">Dill pickles,bread minced chicken dijon mustard greens</p><button class="green my-2 btn btn-outline-info"(click)="clicked()">Ordernow</button>
+      <p class="my-4 ma">RS 88/-</p>
+    </div>
+  </div>
+  </div>
+  <div class="gree mx-2 my-4">
+    <div class="card">
+      <img src="./assets/mixveg.jpg" class="card-img-top container" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">NonVeg Burger</h5>
+        <p class="card-text gig">Onion soup mix, ground turkey, bread crumbs, hamburger</p><button class="green my-2 btn btn-outline-info"(click)="clicked()">Ordernow</button>
+        <p class="my-4 ma">RS 95/-</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./assets/mix big.jpg" class="card-img-top container" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Special Burger</h5>
+        <p class="card-text gig">Gluten free, ground beef, olive oil sea salt, garlic powder testy</p><button class="green my-2 btn btn-outline-info"(click)="clicked()">Ordernow</button>
+        <p class="my-4 ma">RS 114/-</p>
+      </div>
+    </div>
+    </div>

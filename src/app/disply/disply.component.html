@@ -1,0 +1,30 @@
+
+<nav>
+  <br>
+<form class="container justify-content-start">
+ <button class="btn btn-outline-success me-2 my-2" type="button" routerLink="/one">BACK</button>
+<span class="container"> Your Order Details</span>
+</form>
+</nav>
+<div class="table-responsive">
+  <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>PhoneNumber</th>
+          <th>BurgerName</th>
+          <th>Address</th>
+          <th>Cancel</th>
+        </tr>
+      </thead>
+        <tbody>
+          <tr *ngFor="let data of service.list">
+            <td>{{data.Name}}</td>
+            <td>{{data.PhoneNumber}}</td>
+            <td>{{data.BurgerName}}</td>
+            <td>{{data.Address}}</td>
+            <td><button class="btn btn-danger" (click)="ondelete(data)">Cancel</button></td>
+          </tr>
+        </tbody>
+    </table>
+</div>

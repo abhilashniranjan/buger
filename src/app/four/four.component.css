@@ -1,0 +1,57 @@
+.mi{
+  font-size: 1rem;
+  color: rgb(42, 5, 252);
+}
+.green{
+  float: right;
+}
+ .card{
+   width: 45.3vw;
+   height: 50vh;
+  box-shadow: 5px 5px rgb(212, 203, 203);
+ }
+ .gree{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .card-img-top{
+  width: 15vw;
+  height: 15vw;
+}
+
+@media screen and (max-width:770px) and (min-width:280px){
+  .card-img-top{
+    width: 40vw;
+    height: 25vw;
+  }
+.tet{
+  font-size: 12px;
+  color: black;
+}
+h5{
+  font-size: 16px;
+  color: black;
+}
+.mi{
+  font-size: 0.7rem;
+  color: rgb(42, 5, 252);
+}
+}
+@media screen and (max-width:480px) and (min-width:360px){
+  .card{
+    width: 45.3vw;
+    height: 38vh;
+   box-shadow: 5px 5px rgb(212, 203, 203);
+  }
+  .btn{
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:480px) and (min-width:360px){
+  .card{
+    width: 45.3vw;
+    height: 48vh;
+   box-shadow: 5px 5px rgb(212, 203, 203);
+  }
+}
